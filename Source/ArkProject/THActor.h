@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "THActor.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class ARKPROJECT_API ATHActor : public AActor
 {
 	GENERATED_BODY()
