@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS( Blueprintable )
+UCLASS( Blueprintable, BlueprintType)
 class ARKPROJECT_API UTHObject : public UObject
 {
 	GENERATED_BODY()
