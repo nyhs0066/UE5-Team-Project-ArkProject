@@ -178,8 +178,8 @@
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultGameUserSettings.ini"/>
-    <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini"/>
     <None Include="..\..\Source\ArkProject\ArkProject.Build.cs"/>
