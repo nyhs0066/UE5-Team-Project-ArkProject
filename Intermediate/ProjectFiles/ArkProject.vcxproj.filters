@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\ArkProject.uproject" />
     <Filter Include="Source">
@@ -13,15 +13,12 @@
     </None>
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
-    <None Include="..\..\README.md" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Config\DefaultGameUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
+    <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -30,7 +27,10 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultEditor.ini">
+    <None Include="..\..\Config\DefaultGameUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Platforms">
@@ -66,44 +66,44 @@
     <ClCompile Include="..\..\Source\ArkProject\THActor.cpp">
       <Filter>Source\ArkProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\ArkProject\THObject.cpp">
-      <Filter>Source\ArkProject</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\ArkProject\THActor.h">
       <Filter>Source\ArkProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ArkProject\THObject.cpp">
+      <Filter>Source\ArkProject</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\ArkProject\THObject.h">
       <Filter>Source\ArkProject</Filter>
-    </ClInclude>
-    <Filter Include="Source\ArkProject\Public">
-      <UniqueIdentifier>{6793643D-3439-32C0-8832-C443EFAE8B80}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\ArkProject\Public\THPlayerController.h">
-      <Filter>Source\ArkProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArkProject\Public\THCharacterBase.h">
-      <Filter>Source\ArkProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArkProject\Public\ArkProjectGameInstance.h">
-      <Filter>Source\ArkProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ArkProject\Public\ArkProjectPlayerState.h">
-      <Filter>Source\ArkProject\Public</Filter>
     </ClInclude>
     <Filter Include="Source\ArkProject\Private">
       <UniqueIdentifier>{81DE1D8E-23A3-382D-A24E-04248CE7FE47}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ArkProject\Private\THCharacterBase.cpp">
-      <Filter>Source\ArkProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ArkProject\Private\THPlayerController.cpp">
-      <Filter>Source\ArkProject\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\ArkProject\Private\ArkProjectGameInstance.cpp">
       <Filter>Source\ArkProject\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\ArkProject\Private\ArkProjectPlayerState.cpp">
       <Filter>Source\ArkProject\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\ArkProject\Private\THCharacterBase.cpp">
+      <Filter>Source\ArkProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ArkProject\Private\THPlayerController.cpp">
+      <Filter>Source\ArkProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ArkProject\Public">
+      <UniqueIdentifier>{6793643D-3439-32C0-8832-C443EFAE8B80}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ArkProject\Public\ArkProjectGameInstance.h">
+      <Filter>Source\ArkProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArkProject\Public\ArkProjectPlayerState.h">
+      <Filter>Source\ArkProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArkProject\Public\THCharacterBase.h">
+      <Filter>Source\ArkProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArkProject\Public\THPlayerController.h">
+      <Filter>Source\ArkProject\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
